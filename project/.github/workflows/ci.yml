@@ -15,9 +15,9 @@ jobs:
 
       - name: Check required files
         run: |
-          test -f index.html
-          test -f Dockerfile
+          test -f project/index.html
+          test -f project/Dockerfile
           test -f README.md
 
       - name: Build Docker image
-        run: docker build -t devops-portfolio-site .
+        run: docker build -t devops-portfolio-site project/
