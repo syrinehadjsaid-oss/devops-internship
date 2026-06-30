@@ -15,5 +15,12 @@ Construire, conteneuriser avec Docker, automatiser et déployer en ligne mon pro
 - [x] Semaine 2 : Linux et gestion des fichiers.
 - [x] Semaine 3 : Git et GitHub.
 - [x] Semaine 4 : Développement du site et Docker.
-- [ ] Semaine 5 : CI/CD et déploiement Cloud.
+- [/] Semaine 5 : CI/CD et déploiement Cloud (En cours - Pipeline validé !).
 - [ ] Semaine 6 : Documentation finale et présentation.
+
+## Architecture & CI/CD
+
+### Pipeline d'Intégration Continue (GitHub Actions)
+Le projet intègre un pipeline de validation automatisé via GitHub Actions (`ci.yml`) qui s'exécute à chaque push sur la branche `main`. Il effectue les actions suivantes :
+1. **Vérification des fichiers requis** (`index.html`, `Dockerfile`, `README.md`).
+2. **Build de l'image Docker** pour s'assurer que l'application est prête pour le déploiement.
