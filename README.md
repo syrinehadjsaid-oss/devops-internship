@@ -15,8 +15,8 @@ Construire, conteneuriser avec Docker, automatiser et déployer en ligne mon pro
 - [x] Semaine 2 : Linux et gestion des fichiers.
 - [x] Semaine 3 : Git et GitHub.
 - [x] Semaine 4 : Développement du site et Docker.
-- [/] Semaine 5 : CI/CD et déploiement Cloud (En cours - Pipeline validé !).
-- [ ] Semaine 6 : Documentation finale et présentation.
+- [x] Semaine 5 : CI/CD et déploiement Cloud ( Pipeline validé !).
+- [x] Semaine 6 : Documentation finale et présentation.
 
 ## Architecture & CI/CD
 
